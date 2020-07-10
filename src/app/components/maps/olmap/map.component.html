@@ -1,0 +1,10 @@
+<div id="map" class="map">
+    <!--    <app-info-pop-up #popup class='ol-popup' [info]="info"></app-info-pop-up>-->
+    <!--    <div #popup id="popup" class="ol-popup"></div>-->
+</div>
+<div #popup id="popup" class="ol-popup">
+    <a href="#" id="popup-closer" class="ol-popup-closer" (click)="closeInfoPopUp()"></a>
+    <div id="popup-content">
+        <app-info-pop-up [info]="info"></app-info-pop-up>
+    </div>
+</div>

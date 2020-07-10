@@ -14,8 +14,22 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "allowJs": true,
+    "paths": {
+      "ol": [
+        "node_modules/ol/src"
+      ],
+      "ol/*": [
+        "node_modules/ol/src/*"
+      ]
+    },
+    "checkJs": true
   },
+  "include": [
+    "**/*.js",
+    "node_modules/ol/**/*.js"
+  ],
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true

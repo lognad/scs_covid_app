@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">CovidMobileApp</string>
+    <string name="title_activity_main">CovidMobileApp</string>
+    <string name="package_name">com.frauas.covidmobileapp</string>
+    <string name="custom_url_scheme">com.frauas.covidmobileapp</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="mauron85_bgloc_account_name">@string/app_name</string>
+    <string name="mauron85_bgloc_account_type">{@string/package_name}.account</string>
+    <string name="mauron85_bgloc_content_authority">@string/package_name</string>
+</resources>
